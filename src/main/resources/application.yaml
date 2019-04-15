@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: usuarios
+  jpa:
+   dialect: "org.hibernate.dialect.MySQL5Dialect"
+   hibernate:
+    naming:
+     implicit-strategy: "org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl"
+     physical-strategy: "org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl"
+    show-sql: true
+  datasource:
+    username: "root"
+    password: "root"
+    url: "jdbc:mysql://35.192.136.197:3306/opet?serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true"
